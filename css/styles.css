@@ -1,0 +1,22 @@
+/*Main Style */
+
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+.profil-left {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.profil-rigth {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+
+/* Profil-Left style */
+
+
+/* Profil-Right Style */
