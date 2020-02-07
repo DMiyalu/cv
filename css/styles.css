@@ -25,6 +25,11 @@ ul {
 
 ul li {
     list-style: none;
+    color: #3D3D3D;
+}
+
+td {
+    color: #3D3D3D;
 }
 
 #contact {
@@ -34,6 +39,11 @@ ul li {
 
 p {
     font-size: 16px;
+    color: #373737;
+}
+
+h3 {
+    font-weight: normal;
 }
 
 
@@ -63,7 +73,6 @@ p {
 }
 
 .entete-content {
-    border: 1px solid red;
     display: inline-block;
     width: 50%;
     margin-left: 5%;
@@ -71,7 +80,6 @@ p {
 }
 
 .image {
-    border: 1px solid red;
     display: inline-block;
     margin-left: 5%;
     float: left;
@@ -79,8 +87,8 @@ p {
 
 .image-profil {
     border: 8px solid #fff;
-    width: 288px;
-    height: 288px;
+    width: 200px;
+    height: 200px;
     border-radius: 400px;
     -webkit-border-radius: 400px;
     -moz-border-radius: 400px;
@@ -102,12 +110,16 @@ p {
 /* Profil-Left style */
 
 .profil-left {
-    border: 1px solid red;
     display: inline-block;
     float: left;
     width: 25%;
     padding: 3% 2%;
 }
+
+
+/* .profil-left-content {
+    border: 5px solid red;
+} */
 
 .home-logo {
     width: 20px;
@@ -130,14 +142,12 @@ p {
 }
 
 .footer {
-    border: 2px solid red;
     width: 100%;
-    word-spacing: 10px;
+    word-spacing: 4px;
     padding-left: 30px;
 }
 
 .social-network {
-    border: 2px solid red;
     display: inline-block;
 }
 
@@ -176,3 +186,114 @@ p {
     float: right;
     margin-right: 20%;
 }
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 900px) {
+    .image {
+        margin-left: 95px;
+    }
+    .profil-rigth {
+        display: inline-block;
+        margin: 1%;
+        width: 400px;
+        float: none;
+    }
+    .profil-left {
+        display: inline-block;
+        width: 30%;
+        padding: 3% 8%;
+    }
+}
+
+@media screen and (max-width: 838px) {}
+
+@media screen and (max-width: 414px) {
+    .image {
+        display: block;
+        margin-left: 97px;
+    }
+    .image-profil {
+        border: 8px solid #fff;
+        width: 188px;
+        height: 188px;
+        border-radius: 200px;
+        -webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        -ms-border-radius: 200px;
+        -o-border-radius: 200px;
+    }
+    .entete-content {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 5%;
+    }
+    .profil-rigth {
+        display: block;
+        margin: 2.5%;
+        width: 90%;
+        float: none;
+    }
+    .profil-left {
+        display: block;
+        width: 80%;
+        padding: 3% 8%;
+    }
+    .contactez-moi {
+        width: 80%;
+    }
+    .mail {
+        width: 40%;
+    }
+    .cv-download {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .image {
+        display: block;
+        margin-left: 95px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .image {
+        display: block;
+        margin-left: 85px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .image {
+        display: block;
+        margin-left: 71px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .image {
+        display: block;
+        margin-left: 60px;
+    }
+    .nom {
+        font-size: 30px;
+    }
+}
+
+
+/* footer {
+    padding: 10%;
+}
+
+.foot {
+    display: inline-block;
+    width: 30%;
+} 
+
+
+
+
+*/
