@@ -12,11 +12,23 @@ body {
 
 a {
     text-decoration: none;
-    color: #1489cc;
     font-weight: bold;
+    color: #373737;
 }
 
-a:hover {}
+a:hover {
+    color: #1489cc;
+}
+
+.kda {
+    color: #1489cc;
+}
+
+.kda:hover {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    -moz-text-decoration-color: blue;
+}
 
 ul {
     border-bottom: 2px solid #ededed;
@@ -151,26 +163,18 @@ h3 {
     display: inline-block;
 }
 
-.logo-linkedin {
-    width: 50px;
+.social-link:hover {
+    text-shadow: 2px 2px 2px blue;
 }
 
-.logo-twitter {
-    width: 39px;
-    margin-bottom: 6%;
+.ecrivez-moi {
+    text-decoration: underline;
+    text-decoration-color: #373737;
+    -moz-text-decoration-color: #373737;
 }
 
-.contactez-moi {
-    width: 100%;
-}
-
-.mail {
-    display: inline-block;
-}
-
-.cv-download {
-    display: inline-block;
-    float: right;
+.ecrivez-moi:hover {
+    text-decoration-color: #1489cc;
 }
 
 
@@ -209,7 +213,7 @@ h3 {
 
 @media screen and (max-width: 838px) {}
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 768px) {
     .image {
         display: block;
         margin-left: 97px;
@@ -241,14 +245,39 @@ h3 {
         width: 80%;
         padding: 3% 8%;
     }
-    .contactez-moi {
+}
+
+@media screen and (max-width: 414px) {
+    .image {
+        display: block;
+        margin-left: 97px;
+    }
+    .image-profil {
+        border: 8px solid #fff;
+        width: 188px;
+        height: 188px;
+        border-radius: 200px;
+        -webkit-border-radius: 200px;
+        -moz-border-radius: 200px;
+        -ms-border-radius: 200px;
+        -o-border-radius: 200px;
+    }
+    .entete-content {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 5%;
+    }
+    .profil-rigth {
+        display: block;
+        margin: 2.5%;
+        width: 90%;
+        float: none;
+    }
+    .profil-left {
+        display: block;
         width: 80%;
-    }
-    .mail {
-        width: 40%;
-    }
-    .cv-download {
-        width: 60%;
+        padding: 3% 8%;
     }
 }
 
@@ -282,18 +311,3 @@ h3 {
         font-size: 30px;
     }
 }
-
-
-/* footer {
-    padding: 10%;
-}
-
-.foot {
-    display: inline-block;
-    width: 30%;
-} 
-
-
-
-
-*/
